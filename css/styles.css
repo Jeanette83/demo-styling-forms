@@ -17,4 +17,5 @@ body {
 
 header {
     background-color: var(--cream);
+    padding-bottom: 1rem;
 }
