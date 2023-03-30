@@ -21,6 +21,10 @@ body {
     flex-wrap: wrap;
 }
 
+nav {
+    width: 100%;
+}
+
 header {
     background-color: var(--cream);
     padding-bottom: 1rem;
