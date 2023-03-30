@@ -11,6 +11,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;  
 }
 
+.inner-container {
+    padding: 0 1rem;
+}
+
 header {
     background-color: var(--cream);
 }
