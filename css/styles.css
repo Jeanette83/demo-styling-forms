@@ -19,3 +19,7 @@ header {
     background-color: var(--cream);
     padding-bottom: 1rem;
 }
+
+ul.menu {
+    display:none;
+}
