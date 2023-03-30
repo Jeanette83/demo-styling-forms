@@ -14,12 +14,18 @@ body {
 .inner-container {
     padding: 0 1rem;
 }
+.flex-container {
+    display: flex;
+}
 
 header {
     background-color: var(--cream);
     padding-bottom: 1rem;
 }
 
+
+/* Normally we would style the anchor tags but since we're just hiding the whole thing, we won't bother for this demo*/
 ul.menu {
     display:none;
 }
+
