@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,49 +10,51 @@
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
+
 <body>
     <header>
-     <h1 class="sr-only">The Company Name</h1>
-     <img src="img/logo.jpg" alt="Company Logo">
-     <button>
-        Menu
-     </button>
-     <nav>
-        <ul class="menu">
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Guide</a></li>
-            <li><a href="#">Books</a></li>
-            <li><a href="#">Events</a></li>
-        </ul>
-        <form action="#" method="get" name="search" role="search">
-            <label class="sr-only" for="search">Search Bar</label>
-            <input id="search" type="text" placeholder="Search">
-        </form>
-     </nav>
+        <div class="inner-container">
+
+            <h1 class="sr-only">The Company Name</h1>
+            <img src="img/logo.jpg" alt="Company Logo">
+            <button>
+                Menu
+            </button>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Guide</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+                <form action="#" method="get" name="search" role="search">
+                    <label class="sr-only" for="search">Search Bar</label>
+                    <input id="search" type="text" placeholder="Search">
+                </form>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section>
-            <h2>Log In</h2>
-            <form action="#" method="post" name="login">
-                <div>
-                    <label for="email">Email</label>
-                    <input id="email" type="email" name="name" required>
-                </div>
-                 <div>
-                    <label for="password">Password</label>
-                    <input id="password" type="password" autocomplete="off" name="password" required>
-                </div>
-                <div>
-                    <input type="submit" value="sign in">
-                </div>
-
-
-            </form>
-
-
+            <div class="inner-container">
+                <h2>Log In</h2>
+                <form action="#" method="post" name="login">
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="name" required>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input id="password" type="password" autocomplete="off" name="password" required>
+                    </div>
+                    <div>
+                        <input type="submit" value="sign in">
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
-    
 </body>
+
 </html>
