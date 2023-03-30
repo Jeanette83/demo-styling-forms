@@ -1,5 +1,16 @@
 /* developer styles go here */
 
+root {
+    --cream: #e5e1db;
+    --yellow: #cfb450;
+    --grey: #6b6267;
+    --lt-grey: #d2cfd1;
+}
+
 body {
-   
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+header {
+    background-color: var(--cream);
 }
