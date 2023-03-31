@@ -47,6 +47,7 @@ input {
 
 input[id="search"] {
     background-image: url(../img/magnifying-glass.svg);
+    background-repeat: no;
 }
 
 
