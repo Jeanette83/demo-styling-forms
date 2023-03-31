@@ -64,6 +64,10 @@ input[type="email"] {
 
 }
 
+form div {
+    margin-bottom: 1rem;
+}
+
 
 input[id="search"] {
     background-image: url(../img/magnifying-glass.svg);
