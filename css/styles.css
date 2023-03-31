@@ -61,11 +61,15 @@ input[type="password"],
 input[type="email"] {
     border: none;
     border-bottom: solid 2px var(--lt-grey);
-
 }
 
 form div {
     margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+    background-color: var(--yellow);
+    color: var(--cream);
 }
 
 
