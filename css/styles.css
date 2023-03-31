@@ -41,6 +41,8 @@ input {
     width: 100%;
     border: none;
     padding:0.5rem;
+    border-radius: 4px;
+
 }
 
 
