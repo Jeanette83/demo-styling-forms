@@ -74,6 +74,10 @@ input[type="submit"] {
     text-transform: uppercase;
 }
 
+input[type="submit"]:hover {
+    background-color: magenta;
+}
+
 
 input[id="search"] {
     background-image: url(../img/magnifying-glass.svg);
