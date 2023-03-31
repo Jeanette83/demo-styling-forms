@@ -75,7 +75,9 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: magenta;
+    background-color: #fff;
+    border: var(--yellow);
+    color: var(--grey);
 }
 
 
