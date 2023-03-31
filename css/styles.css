@@ -45,6 +45,10 @@ input {
 
 }
 
+input[id="search"] {
+    background-image: url(../img/magnifying-glass.svg);
+}
+
 
 /* Normally we would style the anchor tags but since we're just hiding the whole thing, we won't bother for this demo*/
 ul.menu {
