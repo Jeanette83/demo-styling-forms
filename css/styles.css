@@ -28,6 +28,7 @@ nav {
 header {
     background-color: var(--cream);
     padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 header button {
