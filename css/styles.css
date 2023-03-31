@@ -63,6 +63,12 @@ input[type="email"] {
     border-bottom: solid 2px var(--lt-grey);
 }
 
+input[type="password"]:invalid,
+input[type="email"]:invalid {
+    outline: 1px solid tomato;
+
+}
+
 form div {
     margin-bottom: 1rem;
 }
