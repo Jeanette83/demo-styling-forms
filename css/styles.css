@@ -57,6 +57,14 @@ label {
     display: block;
 }
 
+input[type="password"],
+input[type="email"] {
+    border: none;
+    border-bottom: solid 2px var(--lt-grey);
+
+}
+
+
 input[id="search"] {
     background-image: url(../img/magnifying-glass.svg);
     background-repeat: no-repeat;
