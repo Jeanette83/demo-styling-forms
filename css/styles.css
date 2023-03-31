@@ -53,6 +53,10 @@ input {
     border-radius: 4px;
 }
 
+label {
+    display: block;
+}
+
 input[id="search"] {
     background-image: url(../img/magnifying-glass.svg);
     background-repeat: no-repeat;
