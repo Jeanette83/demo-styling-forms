@@ -72,11 +72,12 @@ input[type="submit"] {
     color: var(--cream);
     border: none;
     text-transform: uppercase;
+    border: 2px solid var(--yellow);
 }
 
 input[type="submit"]:hover {
     background-color: #fff;
-    border: 2px solid var(--yellow);
+    
     color: var(--grey);
 }
 
