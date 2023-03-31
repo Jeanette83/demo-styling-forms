@@ -30,6 +30,13 @@ header {
     padding-bottom: 1rem;
 }
 
+header button {
+    background-color: var(--grey);
+    border: none;
+    color: var(--cream);
+    border-radius: 4px;
+}
+
 
 /* Normally we would style the anchor tags but since we're just hiding the whole thing, we won't bother for this demo*/
 ul.menu {
