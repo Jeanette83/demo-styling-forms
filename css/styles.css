@@ -76,7 +76,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #fff;
-    border: var(--yellow);
+    border: 2px solid var(--yellow);
     color: var(--grey);
 }
 
