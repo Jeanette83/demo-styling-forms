@@ -45,5 +45,7 @@ input {
 /* Normally we would style the anchor tags but since we're just hiding the whole thing, we won't bother for this demo*/
 ul.menu {
     display:none;
+    border: 1px solid var(--grey);
+    padding: 0.5rem;
 }
 
