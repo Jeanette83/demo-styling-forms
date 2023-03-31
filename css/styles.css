@@ -50,7 +50,7 @@ section form {
 
 input {
     width: 100%;
-    border: none;
+  
     padding:0.5rem;
     border-radius: 4px;
 }
@@ -60,7 +60,8 @@ input[id="search"] {
     background-repeat: no-repeat;
     background-size: 1.875rem 1.875rem;
     background-position: left 5px center;  
-    padding: 0.5rem 0.5rem 0.5rem 2.5rem;                      =
+    border: none;
+    padding: 0.5rem 0.5rem 0.5rem 2.5rem;          
 }
 
 
