@@ -43,6 +43,9 @@ header button {
 
 section form {
     border: 1px solid var(--lt-grey);
+    box-shadow: 3px 3px 5px var(--lt-grey);
+    padding: 0.5rem;
+    border-radius: 4px;
 }
 
 input {
