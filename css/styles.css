@@ -90,6 +90,17 @@ input[type="submit"]:hover {
 
 input[id="search"] {
     background-image: url(../img/magnifying-glass.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 1.875rem 1.875rem;
+    background-position: left 5px center;  
+    border: none;
+    padding: 0.5rem 0.5rem 0.5rem 2.5rem;  
+    background-position: left 5px center;  
+    border: none;
+    padding: 0.5rem 0.5rem 0.5rem 2.5rem;  
          
 }
 
